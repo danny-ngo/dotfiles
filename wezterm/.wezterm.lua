@@ -15,10 +15,10 @@ config.animation_fps = 10
 -- THEME & STYLING
 config.color_scheme = 'Catppuccin Mocha'
 config.window_background_opacity = 0.75
-config.macos_window_background_blur = 30
+config.macos_window_background_blur = 25
 config.default_cursor_style = "BlinkingBar"
 config.cursor_thickness = 6.5
--- TODO: Set font
+config.font = wezterm.font("MesloLGS Nerd Font Mono")
 config.font_size = 15.0
 
 -- WINDOW SETTINGS
