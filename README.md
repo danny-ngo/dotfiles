@@ -1,4 +1,5 @@
 # dotfiles
+
 This repository contains config files used to customize my development environment on macOS. 
 
 # Tools
@@ -36,7 +37,6 @@ Create and navigate to "Developer" directory
 ```bash
 mkdir -p ~/Developer && cd ~/Developer
 ```
-
 Clone repository
 ```bash
 git clone https://github.com/danny-ngo/dotfiles.git
@@ -44,7 +44,6 @@ git clone https://github.com/danny-ngo/dotfiles.git
 
 ## Run Installation Script
 *Installation script to be developed in the future.* 
-
 1. Navigate to directory
 ```bash
 cd dotfiles
