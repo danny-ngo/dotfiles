@@ -4,7 +4,7 @@ This repository contains config files used to customize my development environme
 
 # Tools
 
-- Package Manager: [brew](https://brew.sh/)
+- Package Manager: [Homebrew](https://brew.sh/)
 - Dotfile Management: [GNU Stow](https://www.gnu.org/software/stow/)
 - Font: [Meslo LG](https://github.com/andreberg/Meslo-Font)
 - Terminal: [Wezterm](https://wezfurlong.org/wezterm/index.html)
