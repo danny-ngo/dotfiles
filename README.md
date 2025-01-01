@@ -2,7 +2,7 @@
 This repository contains config files used to customize my development environment on macOS. 
 
 # Tools
---- 
+
 - Package Manager: [brew](https://brew.sh/)
 - Dotfile Management: [GNU Stow](https://www.gnu.org/software/stow/)
 - Font: [Meslo LG](https://github.com/andreberg/Meslo-Font)
@@ -14,7 +14,6 @@ This repository contains config files used to customize my development environme
 - Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
 
 # Installation
---- 
 
 ## Pre-Requisites
 ### Install Package Manager and Source Control
@@ -56,7 +55,7 @@ install.sh
 ```
 
 # Roadmap
----
+
 Things to add:
 - Sketchybar config
 - Ghostty config
