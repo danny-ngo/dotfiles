@@ -63,6 +63,7 @@ Things to add:
 - Raycast config
 - Installation script
 - Wallpapers
+- Screenshots
 - Advanced zsh configs
 - VS Code settings
 - Linux configs
