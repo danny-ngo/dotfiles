@@ -62,4 +62,7 @@ Things to add:
 - Fastfetch config
 - Raycast config
 - Installation script
+- Wallpapers
+- Advanced zsh configs
+- VS Code settings
 - Linux configs
