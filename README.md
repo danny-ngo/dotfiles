@@ -7,7 +7,7 @@ This repository contains config files used to customize my development environme
 - Package Manager: [Homebrew](https://brew.sh/)
 - Dotfile Management: [GNU Stow](https://www.gnu.org/software/stow/)
 - Font: [Meslo LG](https://github.com/andreberg/Meslo-Font)
-- Terminal: [Wezterm](https://wezfurlong.org/wezterm/index.html)
+- Terminal: [Ghostty](https://ghostty.org/) and [Wezterm](https://wezfurlong.org/wezterm/index.html)
 - Shell Prompt: [Starship](https://starship.rs/)
 - Editor: [VS Code](https://code.visualstudio.com/)
 - Color Theme: [Catppuccin](https://catppuccin.com/)
