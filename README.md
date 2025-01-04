@@ -43,7 +43,6 @@ git clone https://github.com/danny-ngo/dotfiles.git
 ```
 
 ## Run Installation Script
-*Installation script to be developed in the future.* 
 1. Navigate to directory
 ```bash
 cd dotfiles
