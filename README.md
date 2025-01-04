@@ -50,17 +50,15 @@ cd dotfiles
 ```
 2. Run installation script
 ```bash
-install.sh
+sh install.sh
 ```
 
 # Roadmap
 
 Things to add:
-- Sketchybar config
-- Ghostty config
+- SketchyBar config
 - Fastfetch config
 - Raycast config
-- Installation script
 - Screenshots
 - Advanced zsh configs
 - VS Code settings
