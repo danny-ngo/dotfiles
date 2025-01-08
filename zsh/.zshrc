@@ -5,3 +5,6 @@ export PATH="/usr/local/bin:$PATH"
 
 # Start starship terminal prompt
 eval "$(starship init zsh)"
+
+# Enable zsh syntax highlighting
+source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
