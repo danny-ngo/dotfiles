@@ -61,4 +61,4 @@ Things to add:
 - Screenshots
 - Advanced zsh configs
 - VS Code settings
-- Linux configs
+- Linux support
