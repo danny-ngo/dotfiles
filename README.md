@@ -13,6 +13,7 @@ This repository contains config files used to customize my development environme
 - Color Theme: [Catppuccin](https://catppuccin.com/)
 - Window Manager: [Raycast](https://www.raycast.com/)
 - Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
+- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
 
 # Installation
 
@@ -55,7 +56,7 @@ sh install.sh
 # Roadmap
 
 Things to add:
-- SketchyBar config
+- Separate SketchyBar monitor config
 - Fastfetch config
 - Raycast config
 - Screenshots
