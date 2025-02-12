@@ -7,13 +7,14 @@ This repository contains config files used to customize my development environme
 - Package Manager: [Homebrew](https://brew.sh/)
 - Dotfile Management: [GNU Stow](https://www.gnu.org/software/stow/)
 - Font: [Meslo LG](https://github.com/andreberg/Meslo-Font)
-- Terminal: [Ghostty](https://ghostty.org/) and [Wezterm](https://wezfurlong.org/wezterm/index.html)
+- Terminal: [Ghostty](https://ghostty.org/)
 - Shell Prompt: [Starship](https://starship.rs/)
 - Editor: [VS Code](https://code.visualstudio.com/)
 - Color Theme: [Catppuccin](https://catppuccin.com/)
 - Window Manager: [Raycast](https://www.raycast.com/)
 - Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
-- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- File Browser: [Yazi](https://yazi-rs.github.io/)
+- System Information: [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
 # Installation
 
@@ -58,8 +59,15 @@ sh install.sh
 Things to add:
 - Separate SketchyBar monitor config
 - Fastfetch config
+- Yazi config?
+- [Aerospace](https://nikitabobko.github.io/AeroSpace/guide.html) tiling window manager?
 - Raycast config
 - Screenshots
 - Advanced zsh configs
 - VS Code settings
 - Linux support
+
+# Deprecated
+
+- Terminal: [WezTerm](https://wezfurlong.org/wezterm/index.html)
+- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
