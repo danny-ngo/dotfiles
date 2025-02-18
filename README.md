@@ -58,7 +58,6 @@ sh install.sh
 
 Things to add:
 - Separate SketchyBar monitor config
-- Fastfetch config
 - Yazi config?
 - [Aerospace](https://nikitabobko.github.io/AeroSpace/guide.html) tiling window manager?
 - Raycast config
@@ -69,5 +68,5 @@ Things to add:
 
 # Deprecated
 
-- Terminal: [WezTerm](https://wezfurlong.org/wezterm/index.html)
-- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/)
+- Terminal: [WezTerm](https://wezfurlong.org/wezterm/index.html) -- replaced by Ghostty
+- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/) -- Raycast released Super Key features
