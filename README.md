@@ -60,7 +60,6 @@ Things to add:
 - Separate SketchyBar monitor config
 - Yazi config?
 - [Aerospace](https://nikitabobko.github.io/AeroSpace/guide.html) tiling window manager?
-- Raycast config
 - Screenshots
 - Advanced zsh configs
 - VS Code settings
