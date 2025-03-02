@@ -16,7 +16,7 @@ brew install --cask alt-tab appcleaner bitwarden brave-browser chatgpt daisydisk
 
 
 # Create dotfile symlinks with stow
-stow_ignore_list=("scripts" "wallpapers" "karabiner" "wezterm")
+stow_ignore_list=("scripts" "wallpapers" "raycast" "karabiner" "wezterm")
 
 for dir in */ ;
 do
