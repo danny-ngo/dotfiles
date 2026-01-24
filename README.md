@@ -12,15 +12,25 @@ This repository contains config files used to customize my development environme
 - Editor: [VS Code](https://code.visualstudio.com/)
 - Color Theme: [Catppuccin](https://catppuccin.com/)
 - Window Manager: [Raycast](https://www.raycast.com/)
-- Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
+- Status Bar: [BoringNotch](https://theboring.name/) and [HiddenBar](https://github.com/dwarvesf/hidden)
 - File Browser: [Yazi](https://yazi-rs.github.io/)
-- System Information: [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
+
+# Other CLI Tools
+
+- [bat](https://github.com/sharkdp/bat)
+- [btop](https://github.com/aristocratos/btop)
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [lazydocker](https://github.com/jesseduffield/lazydocker)
+- [lazygit](https://github.com/jesseduffield/lazygit)
+- [tlrc](https://tldr.sh/tlrc/)
+- [tmux](https://github.com/tmux/tmux/wiki)
+
 
 # Installation
 
 ## Pre-Requisites
 ### Install Package Manager and Source Control
-Install brew
+Install Homebrew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -57,15 +67,15 @@ sh install.sh
 # Roadmap
 
 Things to add:
-- Separate SketchyBar monitor config
 - Yazi config?
-- [Aerospace](https://nikitabobko.github.io/AeroSpace/guide.html) tiling window manager?
 - Screenshots
 - Advanced zsh configs
 - VS Code settings
 - Linux support
+- CLI-based installation tool
 
 # Deprecated
 
 - Terminal: [WezTerm](https://wezfurlong.org/wezterm/index.html) -- replaced by Ghostty
 - Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/) -- Raycast released Super Key features
+- Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
