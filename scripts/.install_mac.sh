@@ -21,7 +21,7 @@ echo "Installing GUI applications..."
 # Web Browsers
 brew install --cask brave-browser google-chrome raindropio vivaldi zen
 # Essential Apps
-brew install --cask bitwarden chatgpt discord localsend notion obsidian readdle-spark spotify
+brew install --cask bitwarden chatgpt discord displaylink localsend notion obsidian readdle-spark spotify
 # System Utilities
 brew install --cask alt-tab appcleaner boring-notch daisydisk flux-app raycast
 # Other Apps
