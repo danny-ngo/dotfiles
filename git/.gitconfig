@@ -2,3 +2,5 @@
 [user]
 	name = danny-ngo
 	email = 24947435+danny-ngo@users.noreply.github.com
+[init]
+	defaultBranch = main
