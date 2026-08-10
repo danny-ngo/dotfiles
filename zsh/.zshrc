@@ -20,3 +20,6 @@ eval "$(starship init zsh)"
 
 # Enable zsh syntax highlighting
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# Added by Devin
+export PATH="/Users/danny/.codeium/windsurf/bin:$PATH"
