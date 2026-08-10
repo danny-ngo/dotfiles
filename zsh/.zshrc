@@ -1,7 +1,7 @@
 
 # Add /usr/local/bin to the beginning of the PATH environment variable
 # This ensures that executables in /usr/local/bin are found before other directories in the PATH
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 
 # Yazi Shell Wrapper
 function y() {
@@ -12,6 +12,8 @@ function y() {
 	fi
 	rm -f -- "$tmp"
 }
+
+eval "$(mise activate zsh)"
 
 # Start starship terminal prompt
 eval "$(starship init zsh)"

@@ -1,81 +1,23 @@
 # dotfiles
 
-This repository contains config files used to customize my development environment on macOS. 
+Personal user configuration for my development environment. This repository is configuration-only: software installation, package selection, operating-system defaults, and machine provisioning are managed externally.
 
-# Tools
+## Configuration
 
-- Package Manager: [Homebrew](https://brew.sh/)
-- Dotfile Management: [GNU Stow](https://www.gnu.org/software/stow/)
-- Font: [Meslo LG](https://github.com/andreberg/Meslo-Font)
-- Terminal: [Ghostty](https://ghostty.org/)
-- Shell Prompt: [Starship](https://starship.rs/)
-- Editor: [VS Code](https://code.visualstudio.com/)
-- Color Theme: [Catppuccin](https://catppuccin.com/)
-- Window Manager: [Raycast](https://www.raycast.com/)
-- Status Bar: [BoringNotch](https://theboring.name/) and [HiddenBar](https://github.com/dwarvesf/hidden)
-- File Browser: [Yazi](https://yazi-rs.github.io/)
+Directories such as `fastfetch`, `ghostty`, `git`, `mise`, `starship`, `wezterm`, and `zsh` use a [GNU Stow](https://www.gnu.org/software/stow/)-compatible layout where applicable. The repository also retains configuration exports and supporting assets, including Raycast settings and wallpapers.
 
-# Other CLI Tools
+The environment consuming this repository is responsible for installing Git, GNU Stow, and the programs used by these configurations. It is also responsible for choosing which configuration directories to apply.
 
-- [bat](https://github.com/sharkdp/bat)
-- [btop](https://github.com/aristocratos/btop)
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [lazydocker](https://github.com/jesseduffield/lazydocker)
-- [lazygit](https://github.com/jesseduffield/lazygit)
-- [tlrc](https://tldr.sh/tlrc/)
-- [tmux](https://github.com/tmux/tmux/wiki)
+For example, from an existing checkout with the prerequisites already available:
 
-
-# Installation
-
-## Pre-Requisites
-### Install Package Manager and Source Control
-Install Homebrew
-```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-brew post-install command
-```bash
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
-Install git
-```bash
-brew install git
+```sh
+stow --restow --target="$HOME" git starship zsh
 ```
 
-### Clone Repo
-Create and navigate to "Developer" directory
-```bash
-mkdir -p ~/Developer && cd ~/Developer
-```
-Clone repository
-```bash
-git clone https://github.com/danny-ngo/dotfiles.git
-```
+This only links the selected user configuration; it does not install or provision software.
 
-## Run Installation Script
-1. Navigate to directory
-```bash
-cd dotfiles
-```
-2. Run installation script
-```bash
-sh install.sh
-```
+## Deprecated configuration
 
-# Roadmap
-
-Things to add:
-- Yazi config?
-- Screenshots
-- Advanced zsh configs
-- VS Code settings
-- Linux support
-- CLI-based installation tool
-
-# Deprecated
-
-- Terminal: [WezTerm](https://wezfurlong.org/wezterm/index.html) -- replaced by Ghostty
-- Keybind Modification: [Karabiner-Elements](https://karabiner-elements.pqrs.org/) -- Raycast released Super Key features
-- Status Bar: [SketchyBar](https://felixkratz.github.io/SketchyBar/)
+- [WezTerm](https://wezfurlong.org/wezterm/index.html), replaced by Ghostty
+- [Karabiner-Elements](https://karabiner-elements.pqrs.org/), replaced by Raycast Super Key features
+- [SketchyBar](https://felixkratz.github.io/SketchyBar/)

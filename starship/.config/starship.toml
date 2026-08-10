@@ -140,5 +140,5 @@ command = 'uv python find --show-version --no-project'
 format = 'via [${symbol}(${output} )]($style)'
 symbol = "🐍 "
 style = "yellow bold"
-detect_files = ['.python-version', 'Pipefile', '__init__.py', 'pyproject.toml', 'requirements.txt', 'setup.py', 'tox.ini', 'uv.lock', 'pylock.toml']
+detect_files = ['.python-version', 'Pipfile', '__init__.py', 'pyproject.toml', 'requirements.txt', 'setup.py', 'tox.ini', 'uv.lock', 'pylock.toml']
 detect_extensions = ['py', 'ipynb']
