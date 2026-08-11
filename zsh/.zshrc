@@ -18,8 +18,18 @@ eval "$(mise activate zsh)"
 # Start starship terminal prompt
 eval "$(starship init zsh)"
 
-# Enable zsh syntax highlighting
-source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# Enable zsh syntax highlighting from the platform package location.
+for zsh_syntax_highlighting in \
+	/opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \
+	/usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \
+	/usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh \
+	/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh; do
+	if [[ -r "$zsh_syntax_highlighting" ]]; then
+		source "$zsh_syntax_highlighting"
+		break
+	fi
+done
+unset zsh_syntax_highlighting
 
 # Added by Devin
 export PATH="/Users/danny/.codeium/windsurf/bin:$PATH"
